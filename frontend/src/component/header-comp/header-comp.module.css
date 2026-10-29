@@ -1,0 +1,33 @@
+.header {
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.leftContainer,
+.navLinks,
+.rightContainer,
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  color: black;
+}
+
+.navButton,
+.logoutButton {
+  border-radius: 2px;
+  text-transform: none;
+}

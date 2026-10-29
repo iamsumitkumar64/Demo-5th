@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.formWrapper {
+  width: 100%;
+  max-width: 420px;
+  padding: 24px;
+  background-color: white;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.errorBanner {
+  margin-bottom: 14px;
+  border-radius: 2px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.submitBtn {
+  border-radius: 2px;
+  padding: 8px 0;
+  text-transform: none;
+}
+
+.footer {
+  margin-top: 14px;
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+* {
+  scroll-behavior: smooth;
+  transition: all ease .5s;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  user-select: none;
+}
+
+button:hover,
+img:hover {
+  cursor: pointer;
+}
+
+.MuiButtonBase-root {
+  text-transform: none;
+}
+
+p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}

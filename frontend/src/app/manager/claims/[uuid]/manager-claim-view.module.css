@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  gap: 18px;
+}
+
+.topRow,
+.actionsBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.actionsBar {
+  margin-top: 16px;
+  justify-content: flex-end;
+}
+
+.fieldRow {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.historyItem {
+  padding: 10px 0;
+  font-size: 13px;
+}
+
+.commentLine {
+  margin-top: 4px;
+}
+
+.historyDivider {
+  margin: 4px 0;
+}
+
+.btn {
+  border-radius: 2px;
+  text-transform: none;
+}
